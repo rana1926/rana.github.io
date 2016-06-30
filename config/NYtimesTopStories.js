@@ -1,0 +1,1 @@
+window.NYtimesTop_API_KEY = 'f6c94968298843af928c1fb9bc9560ac';

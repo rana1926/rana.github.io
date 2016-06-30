@@ -1,0 +1,17 @@
+"use strict";
+
+var searchWeather = function searchWeather(_ref, callback) {
+   var query = _ref.query;
+
+   $.get("http://api.openweathermap.org/data/2.5/forecast", { q: query,
+      APPID: WEATHER_API_KEY }, function (data) {
+      if (callback) {
+         callback(data);
+      }
+      console.log(data);
+   });
+};
+
+window.searchWeather = searchWeather;
+//api.openweathermap.org/data/2.5/forecast/city?id=524901&APPID=6c0102bbec2e4f265ce4a437a7da3ea9
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL2NvbXBvbmVudHMvU2VhcmNoV2VhdGhlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUFBLElBQUksZ0JBQWdCLFNBQWhCLGFBQWdCLE9BQVUsUUFBVixFQUF1QjtBQUFBLE9BQXJCLEtBQXFCLFFBQXJCLEtBQXFCOztBQUN6QyxLQUFFLEdBQUYsQ0FBTSxpREFBTixFQUNNLEVBQUMsR0FBRyxLQUFKO0FBQ0MsYUFBTSxlQURQLEVBRE4sRUFHTyxVQUFTLElBQVQsRUFBYztBQUNiLFVBQUcsUUFBSCxFQUFZO0FBQ1Ysa0JBQVMsSUFBVDtBQUNDO0FBQ0QsY0FBUSxHQUFSLENBQVksSUFBWjtBQUNGLElBUlI7QUFVRCxDQVhEOztBQWFBLE9BQU8sYUFBUCxHQUF1QixhQUF2QiIsImZpbGUiOiJTZWFyY2hXZWF0aGVyLmpzIiwic291cmNlc0NvbnRlbnQiOlsidmFyIHNlYXJjaFdlYXRoZXIgPSAoe3F1ZXJ5fSwgY2FsbGJhY2spID0+IHtcclxuICAkLmdldChcImh0dHA6Ly9hcGkub3BlbndlYXRoZXJtYXAub3JnL2RhdGEvMi41L2ZvcmVjYXN0XCIsXHJcbiAgICAgICAge3E6IHF1ZXJ5LFxyXG4gICAgICAgICBBUFBJRDpXRUFUSEVSX0FQSV9LRVl9LFxyXG4gICAgICAgICBmdW5jdGlvbihkYXRhKXtcclxuICAgICAgICAgXHRpZihjYWxsYmFjayl7XHJcbiAgICAgICAgICAgIGNhbGxiYWNrKGRhdGEpO1xyXG4gICAgICAgICAgICB9IFxyXG4gICAgICAgICAgICBjb25zb2xlLmxvZyhkYXRhKSAgICAgICBcclxuICAgICAgICAgfVxyXG4gICAgKVxyXG59O1xyXG5cclxud2luZG93LnNlYXJjaFdlYXRoZXIgPSBzZWFyY2hXZWF0aGVyO1xyXG4vL2FwaS5vcGVud2VhdGhlcm1hcC5vcmcvZGF0YS8yLjUvZm9yZWNhc3QvY2l0eT9pZD01MjQ5MDEmQVBQSUQ9NmMwMTAyYmJlYzJlNGYyNjVjZTRhNDM3YTdkYTNlYTkiXX0=

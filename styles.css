@@ -1,0 +1,111 @@
+body{
+  font: normal normal bold 16px/1 "Trebuchet MS", Helvetica, sans-serif;
+}
+ul{
+   list-style-type: none;
+}
+h1{
+  color: #3b5998;
+}
+img{
+  margin-top: 0%;
+}
+#city{
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  position: relative;
+  cursor: pointer;
+  padding: 0.25em 0.5em;
+  border: none;
+  -webkit-border-radius: 0.25em;
+  border-radius: 0.5em;
+  font: normal 3em/0 "Trebuchet MS", Helvetica, sans-serif;
+  color: rgba(5,9,38,0.91);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: rgba(140,140,140,0);
+  text-shadow: 0 0 9px rgba(255,255,86,0.7) , -1px -1px 0 rgba(15,73,168,0.66) ;
+  -webkit-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+#textbox {
+
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  padding: 10px 20px;
+  border: 0.25em solid #b7b7b7;
+  -webkit-border-radius: 0.25em;
+  border-radius: 0.5em;
+  font: normal 16px/normal "Trebuchet MS", Helvetica, sans-serif;
+  color: rgba(10,25,79,1);
+  
+  background: rgba(242,193,193,1);
+  -webkit-box-shadow: 0.25em 0.25em 0.25em 0 rgba(0,0,0,0.2) inset;
+  box-shadow: 0.25em 0.25em 0.25em 0 rgba(0,0,0,0.2) inset;
+  text-shadow: 0.1em 0.1em 0 rgba(255,255,255,0.66) ;
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  margin-top: -50px;
+  margin-left: 0px;
+}
+#search{
+position: fixed;
+  
+  top: 20%;
+  left: 20%;
+}
+.btn {
+  background: #cccfe3;
+  background-image: -webkit-linear-gradient(top, #cccfe3, #567da8);
+  background-image: -moz-linear-gradient(top, #cccfe3, #567da8);
+  background-image: -ms-linear-gradient(top, #cccfe3, #567da8);
+  background-image: -o-linear-gradient(top, #cccfe3, #567da8);
+  background-image: linear-gradient(to bottom, #cccfe3, #567da8);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  text-shadow: 1px 1px 3px #524352;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-left: 0.5em;
+}
+
+.btn:hover {
+  background: #dfe4e8;
+  background-image: -webkit-linear-gradient(top, #dfe4e8, #a7acb0);
+  background-image: -moz-linear-gradient(top, #dfe4e8, #a7acb0);
+  background-image: -ms-linear-gradient(top, #dfe4e8, #a7acb0);
+  background-image: -o-linear-gradient(top, #dfe4e8, #a7acb0);
+  background-image: linear-gradient(to bottom, #dfe4e8, #a7acb0);
+  text-decoration: none;
+}
+.define {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border: none;
+  font: normal normal bold 16px/1 "Trebuchet MS", Helvetica, sans-serif;
+  color: rgba(193,79,172,1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  letter-spacing: 0.25em;
+}
+#weatherList{
+  margin-top: 10%;
+  background-color:#bbcaff;
+  padding-left:15%;
+  padding-top: 2em;
+  padding-bottom: 2em;
+
+}
